@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21EB95C71B649B4700A6753A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EB95C61B649B4700A6753A /* main.m */; };
+		21EB95D01B649B8600A6753A /* NSObject+Representation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EB95CF1B649B8600A6753A /* NSObject+Representation.m */; };
+		21EB95D51B649C4000A6753A /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EB95D41B649C3800A6753A /* ResponseModel.m */; };
+		21EB95D61B649C8100A6753A /* github-iphone.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21EB95D21B649C3800A6753A /* github-iphone.json */; };
+		21EB95D91B64A63300A6753A /* WeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EB95D81B64A63300A6753A /* WeatherInfo.m */; };
+		21EB95E01B64CCF500A6753A /* DoubanMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EB95DF1B64CCF500A6753A /* DoubanMusic.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21EB95C11B649B4700A6753A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				21EB95D61B649C8100A6753A /* github-iphone.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21EB95C31B649B4700A6753A /* Representation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Representation; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EB95C61B649B4700A6753A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21EB95CE1B649B8600A6753A /* NSObject+Representation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Representation.h"; sourceTree = "<group>"; };
+		21EB95CF1B649B8600A6753A /* NSObject+Representation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Representation.m"; sourceTree = "<group>"; };
+		21EB95D21B649C3800A6753A /* github-iphone.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "github-iphone.json"; sourceTree = "<group>"; };
+		21EB95D31B649C3800A6753A /* ResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseModel.h; sourceTree = "<group>"; };
+		21EB95D41B649C3800A6753A /* ResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseModel.m; sourceTree = "<group>"; };
+		21EB95D71B64A63300A6753A /* WeatherInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherInfo.h; sourceTree = "<group>"; };
+		21EB95D81B64A63300A6753A /* WeatherInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherInfo.m; sourceTree = "<group>"; };
+		21EB95DA1B64C52B00A6753A /* Representation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Representation-Bridging-Header.h"; sourceTree = "<group>"; };
+		21EB95DF1B64CCF500A6753A /* DoubanMusic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubanMusic.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21EB95C01B649B4700A6753A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21EB95BA1B649B4700A6753A = {
+			isa = PBXGroup;
+			children = (
+				21EB95C51B649B4700A6753A /* Representation */,
+				21EB95C41B649B4700A6753A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21EB95C41B649B4700A6753A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21EB95C31B649B4700A6753A /* Representation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21EB95C51B649B4700A6753A /* Representation */ = {
+			isa = PBXGroup;
+			children = (
+				21EB95D11B649C3800A6753A /* Model */,
+				21EB95CD1B649B7400A6753A /* Classes */,
+				21EB95C61B649B4700A6753A /* main.m */,
+			);
+			path = Representation;
+			sourceTree = "<group>";
+		};
+		21EB95CD1B649B7400A6753A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				21EB95CE1B649B8600A6753A /* NSObject+Representation.h */,
+				21EB95CF1B649B8600A6753A /* NSObject+Representation.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		21EB95D11B649C3800A6753A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21EB95D21B649C3800A6753A /* github-iphone.json */,
+				21EB95D31B649C3800A6753A /* ResponseModel.h */,
+				21EB95D41B649C3800A6753A /* ResponseModel.m */,
+				21EB95D71B64A63300A6753A /* WeatherInfo.h */,
+				21EB95D81B64A63300A6753A /* WeatherInfo.m */,
+				21EB95DA1B64C52B00A6753A /* Representation-Bridging-Header.h */,
+				21EB95DF1B64CCF500A6753A /* DoubanMusic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21EB95C21B649B4700A6753A /* Representation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EB95CA1B649B4700A6753A /* Build configuration list for PBXNativeTarget "Representation" */;
+			buildPhases = (
+				21EB95BF1B649B4700A6753A /* Sources */,
+				21EB95C01B649B4700A6753A /* Frameworks */,
+				21EB95C11B649B4700A6753A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Representation;
+			productName = Representation;
+			productReference = 21EB95C31B649B4700A6753A /* Representation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21EB95BB1B649B4700A6753A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Hesion 3d Inc";
+				TargetAttributes = {
+					21EB95C21B649B4700A6753A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 21EB95BE1B649B4700A6753A /* Build configuration list for PBXProject "Representation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21EB95BA1B649B4700A6753A;
+			productRefGroup = 21EB95C41B649B4700A6753A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21EB95C21B649B4700A6753A /* Representation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21EB95BF1B649B4700A6753A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EB95D91B64A63300A6753A /* WeatherInfo.m in Sources */,
+				21EB95D01B649B8600A6753A /* NSObject+Representation.m in Sources */,
+				21EB95D51B649C4000A6753A /* ResponseModel.m in Sources */,
+				21EB95E01B64CCF500A6753A /* DoubanMusic.swift in Sources */,
+				21EB95C71B649B4700A6753A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21EB95C81B649B4700A6753A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21EB95C91B649B4700A6753A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21EB95CB1B649B4700A6753A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Representation/Model/Representation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21EB95CC1B649B4700A6753A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Representation/Model/Representation-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21EB95BE1B649B4700A6753A /* Build configuration list for PBXProject "Representation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EB95C81B649B4700A6753A /* Debug */,
+				21EB95C91B649B4700A6753A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21EB95CA1B649B4700A6753A /* Build configuration list for PBXNativeTarget "Representation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EB95CB1B649B4700A6753A /* Debug */,
+				21EB95CC1B649B4700A6753A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21EB95BB1B649B4700A6753A /* Project object */;
+}
