@@ -59,7 +59,7 @@ static NSDictionary *REPKeysForDictionaryRepresentationOfClass(Class cls) {
             const char *name = property_getName(curProperty);
             
             NSString *propertyKey = [NSString stringWithCString:name encoding:NSUTF8StringEncoding];
-            NSArray *array = REPPropertyClassKey(curClass, propertyKey);
+            NSArray *array = REPPropertyClassKey(curClass, name);
             dict[propertyKey] = array ?: [NSNull null];
         }
         
@@ -72,8 +72,8 @@ static NSDictionary *REPKeysForDictionaryRepresentationOfClass(Class cls) {
     return dict;
 }
 
-static NSArray *REPPropertyClassKey(Class class, NSString *key) {
-    objc_property_t property = class_getProperty(class, [key cStringUsingEncoding:NSUTF8StringEncoding]);
+static NSArray *REPPropertyClassKey(Class class, const char *key) {
+    objc_property_t property = class_getProperty(class, key);
     if (property) {
         const char *attributes = property_getAttributes(property);
         char *classNameCString = strstr(attributes, "@\"");
