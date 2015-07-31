@@ -47,9 +47,9 @@ static NSDictionary *REPKeysForDictionaryRepresentationOfClass(Class cls) {
     Class curClass = cls;
     while (1) {
         // Stop on NSObject.
-        if (curClass && curClass == [NSObject class])
-        break;
-        
+        if (curClass == Nil || curClass == [NSObject class]) {
+            break;
+        }
         // Use objc runtime to get all properties and return their names.
         unsigned int outCount;
         objc_property_t *properties = class_copyPropertyList(curClass, &outCount);
@@ -63,9 +63,9 @@ static NSDictionary *REPKeysForDictionaryRepresentationOfClass(Class cls) {
             dict[propertyKey] = array ?: [NSNull null];
         }
         
-        if (properties)
-        free(properties);
-        
+        if (properties) {
+            free(properties);
+        }
         // Next.
         curClass = [curClass superclass];
     }
