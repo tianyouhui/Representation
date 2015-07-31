@@ -25,7 +25,8 @@ REP_COLLECTION_TYPE(Forecast)
 
 @property(nonatomic) NSInteger wendu;
 @property(nonatomic, strong) NSString *ganmao;
-@property(nonatomic, strong) NSArray<Forecast> *forecast; // Though XCode7 has Generic Type, we also should this protocol to simulate, because the generic cannot get the Forecast type but only NSArray.... In all, generic is compile time but not runtime.
+@property(nonatomic, strong) NSArray<Forecast
+> *forecast; // Though XCode7 has Generic Type, we also should this protocol to simulate, because the generic cannot get the Forecast type but only NSArray.... In all, generic is compile time but not runtime.
 @property(nonatomic, strong) Forecasted *yesterday;
 @property(nonatomic) NSInteger aqi;
 @property(nonatomic, strong) NSString *city;

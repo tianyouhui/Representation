@@ -95,6 +95,8 @@ static NSArray *REPPropertyClassKey(Class class, const char *key) {
                         [set addObject:className];
                         break;
                     case ' ':
+                    case '\r':
+                    case '\n':
                         break;
                     default:
                         p[j++] = classNameCString[i];
