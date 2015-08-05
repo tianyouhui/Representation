@@ -270,9 +270,9 @@ static NSArray *REPPropertyClassKey(Class class, const char *key) {
     }
     NSString *firstClass = [classes firstObject];
     Class cls = NSClassFromString(firstClass);
-    NSString *moduleName = [[self class] __dictionaryForRepresentationKeys][REPSwiftModuleNameKey];
     if (cls == Nil) {
         // is swift?
+        NSString *moduleName = [[self class] __dictionaryForRepresentationKeys][REPSwiftModuleNameKey];
         if (moduleName && firstClass) {
             cls = NSClassFromString([@[moduleName, firstClass] componentsJoinedByString:@"."]);
             if (cls) {
