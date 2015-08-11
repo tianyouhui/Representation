@@ -297,8 +297,9 @@ static NSArray *REPPropertyClassKey(Class class, const char *key) {
             return [cls objectWithDictionaryRepresentation:value];
         }
         NSMutableDictionary *dstCollection = [NSMutableDictionary dictionaryWithCapacity:[value count]];
+        NSArray *array = [classes subarrayWithRange:NSMakeRange(1, [classes count] - 1)];
         for (NSString *curKey in value) {
-            id decodeObject = [self decodeValue:value[curKey] collectionClass:classes propertyName:name];
+            id decodeObject = [self decodeValue:value[curKey] collectionClass:array propertyName:name];
             dstCollection[curKey] = decodeObject;
         }
         return dstCollection;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21B291301B799BA30045F548 /* ObjTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2912F1B799BA30045F548 /* ObjTestModel.m */; };
 		21EB95C71B649B4700A6753A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EB95C61B649B4700A6753A /* main.m */; };
 		21EB95D01B649B8600A6753A /* NSObject+Representation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EB95CF1B649B8600A6753A /* NSObject+Representation.m */; };
 		21EB95D51B649C4000A6753A /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EB95D41B649C3800A6753A /* ResponseModel.m */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21B2912E1B799BA30045F548 /* ObjTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjTestModel.h; sourceTree = "<group>"; };
+		21B2912F1B799BA30045F548 /* ObjTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjTestModel.m; sourceTree = "<group>"; };
 		21EB95C31B649B4700A6753A /* Representation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Representation; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EB95C61B649B4700A6753A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21EB95CE1B649B8600A6753A /* NSObject+Representation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Representation.h"; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				21EB95D81B64A63300A6753A /* WeatherInfo.m */,
 				21EB95DA1B64C52B00A6753A /* Representation-Bridging-Header.h */,
 				21EB95DF1B64CCF500A6753A /* DoubanMusic.swift */,
+				21B2912E1B799BA30045F548 /* ObjTestModel.h */,
+				21B2912F1B799BA30045F548 /* ObjTestModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				21EB95D51B649C4000A6753A /* ResponseModel.m in Sources */,
 				21EB95E01B64CCF500A6753A /* DoubanMusic.swift in Sources */,
 				21EB95C71B649B4700A6753A /* main.m in Sources */,
+				21B291301B799BA30045F548 /* ObjTestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

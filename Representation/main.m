@@ -11,6 +11,7 @@
 #import "ResponseModel.h"
 #import "WeatherInfo.h"
 #import "Representation-swift.h"
+#import "ObjTestModel.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -53,6 +54,9 @@ int main(int argc, const char * argv[]) {
             Tag *tag = music.tags.firstObject;
             NSLog(@"count is %ld, name is %@", tag.count, tag.name);
         }
+        
+        ObjTestModel *test = [ObjTestModel defaultModel];
+        NSLog(@"%@", test);
     }
     return 0;
 }
